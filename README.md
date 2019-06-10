@@ -4,7 +4,7 @@ The work is done based on the Kickstarter dataset representing the projects crea
 
 1. Used conditional formatting to highlight the column of state with different colors according to its states.
 
- 
+ 75875cfc4601e945e47bf0e3157293e60e50587d
 
 2. Created a column named Percent Funded use formula E2/D2*100 to represent the percentage of fund that was gained.
 
