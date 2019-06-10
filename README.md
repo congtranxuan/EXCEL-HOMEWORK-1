@@ -7,7 +7,7 @@ The work is done based on the Kickstarter dataset representing the projects crea
 ![boy-512](https://user-images.githubusercontent.com/50689116/59233135-d4a91f80-8bac-11e9-92ee-1dc53566c17b.png)
 
 2. Created a column named Percent Funded use formula E2/D2*100 to represent the percentage of fund that was gained.
-![test img](2016-11-08 (1).png)
+![test img](boy-512.png)
  
 
 3. Used conditional formatting with 3 color-shading red, green, blue to highlight the interval of Percent Funded within 0-100-200.
