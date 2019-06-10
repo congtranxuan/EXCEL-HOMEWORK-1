@@ -4,7 +4,7 @@ The work is done based on the Kickstarter dataset representing the projects crea
 
 1. Used conditional formatting to highlight the column of state with different colors according to its states.
 
- https://rice.bootcampcontent.com/Rice-Coding-Bootcamp/RICEHOU201906DATA1/blob/master/HW/01-Excel/Instructions/Images/CategoryStats.PNG
+![boy-512](https://user-images.githubusercontent.com/50689116/59233135-d4a91f80-8bac-11e9-92ee-1dc53566c17b.png)
 
 2. Created a column named Percent Funded use formula E2/D2*100 to represent the percentage of fund that was gained.
 
