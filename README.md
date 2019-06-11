@@ -30,29 +30,29 @@ The work is done based on the Kickstarter dataset representing the projects crea
 
 10. Some comments about this dataset:
 
-a)		Given the provided data, what are three conclusions we can draw about Kickstarter campaigns?
+     a)		Given the provided data, what are three conclusions we can draw about Kickstarter campaigns?
 
-•	Three categories which had the most successful projects are theater, music and film & video.
+           •	Three categories which had the most successful projects are theater, music and film & video.
 
-•	Most projects in journalism were canceled at final.
+           •	Most projects in journalism were canceled at final.
 
-•	In category of theater, there are most projects in plays sub-category and the number of successful projects is almost double the number of failed ones.
+           •	In category of theater, there are most projects in plays sub-category and the number of successful projects is almost double the number of failed ones.
 
-•	There are most of projects based on goal of more than 1000 and less than 4999 backers. However, with the projects had the goal less than 1000, it had more chance of success.
+           •	There are most of projects based on goal of more than 1000 and less than 4999 backers. However, with the projects had the goal less than 1000, it had more chance of success.
 
-b)	What are some limitations of this dataset?
+     b)	What are some limitations of this dataset?
 
-•	This dataset is limited by the scenarios of Kickstarter platform, it would not represent for all the projects belonging to the categories or sub-categories and started on that time that created on other platforms.
+           •	This dataset is limited by the scenarios of Kickstarter platform, it would not represent for all the projects belonging to the categories or sub-categories and started on that time that created on other platforms.
 
-•	The projects in same categories created in the same month but different years would be different because the differences in scenarios and trends.
+           •	The projects in same categories created in the same month but different years would be different because the differences in scenarios and trends.
 
-•	Within the same category or sub-category, every project depends on different elements to succeed but the same goal or same date in a year.
+           •	Within the same category or sub-category, every project depends on different elements to succeed but the same goal or same date in a year.
 
-c)	What are some other possible tables and/or graphs that we could create?
+     c)	What are some other possible tables and/or graphs that we could create?
 
-•	We can analyze the chance of success for projects by the percent fund, what is the minimum to be successful.
+           •	We can analyze the chance of success for projects by the percent fund, what is the minimum to be successful.
 
-•	We could create more tables to analyze the projects in categories with goals, which goals are suitable for projects to get the success.
+           •	We could create more tables to analyze the projects in categories with goals, which goals are suitable for projects to get the success.
 
 11. Created a sheet of Outcome based on Goal to analyze the projects with goal using COUNTIFS('Kickstater Data'!$F$2:$F$4115,B$17,'Kickstater Data'!$D$2:$D$4115,"<1000") according to its ranges and states.
  
