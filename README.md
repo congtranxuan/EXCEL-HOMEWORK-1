@@ -9,10 +9,11 @@ The work is done based on the Kickstarter dataset representing the projects crea
 
 2. Created a column named Percent Funded use formula E2/D2*100 to represent the percentage of fund that was gained.
 
- 
+ ![](Images/PercentFunded_Formula.png)
 
 3. Used conditional formatting with 3 color-shading red, green, blue to highlight the interval of Percent Funded within 0-100-200.
  
+![](Images/Highlight_PercentFunded.png)
 
 4. Created column P called Average Donation using formula If(L2<>0,E2/L2,0)
 
@@ -20,15 +21,16 @@ The work is done based on the Kickstarter dataset representing the projects crea
 
 6. Analyze the dataset using Pivot table and Pivot chart sorted with Category.
  
+ ![](Images/Pivot_Category.png)
 
 7. Analyze the dataset using Pivot table and Pivot chart with Sub-Category
- 
+ ![](Images/Pivot_SubCategory.png)
 
 8. Because the deadline and launched at columns store date at Unix Timestamp, use formulas (J2/86400)+DATE(1970,1,1) and (I2/86400)+DATE(1970,1,1) to change date to Excel style and store at Date Created Conversion and Date Ended Conversion columns.
 
 9. Used Pivot table and Pivot chart to analyze the data to count the number of successful, failed and canceled based on Date Created Conversion.
  
-
+![](Images/Pivot_DateCreatedConversion.png)
 10. Some comments about this dataset:
 
      a)		Given the provided data, what are three conclusions we can draw about Kickstarter campaigns?
@@ -57,9 +59,13 @@ The work is done based on the Kickstarter dataset representing the projects crea
 
 11. Created a sheet of Outcome based on Goal to analyze the projects with goal using COUNTIFS('Kickstater Data'!$F$2:$F$4115,B$17,'Kickstater Data'!$D$2:$D$4115,"<1000") according to its ranges and states.
  
+![](Images/Outcomebasedongoals.png)
 
 12. Analyzed the statistical aspect of the dataset by created sheets called Backers for Outcomes, Successful data to test Median and Unsuccessful data to test Median. I copied figures from Kickstarter Data and used Data Analysis Tool/Historam, created the according Bin containing MAX value to sketch the histogram data. Based on these distribution chart, we can draw the conclusion that the data is right-skewed and Median is the value to better representing the data generally.
  
+ ![](Images/SuccessfuldataMedian.png)
+ 
+ ![](Images/UnsuccessfuldataMedian.png)
  
 
 
